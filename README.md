@@ -12,8 +12,8 @@ You can use any tool or combination of tools with which you are familiar, howeve
   - Data quality issues found and how they were discovered.
   - How you found answers to the questions below (and any caveats to the answers). 
 
-1. What location has the most jobs that are either posted or expired?
-2. What month had the most cancelled jobs?
+1. Which location currently has the most jobs in either the active or expired state?
+2. In which month were the most jobs cancelled?
 3. Which company has the highest ratio of posted jobs to employee count?
 4. Develop the SQL to define a dimensional model schema for this data. Document (or be ready to discuss) any design decisions that you make.
 5. Using your dimensional model, write a SQL query that returns a list of jobs for each company, ordered and enumerated within each group by the `posted_at` date.
